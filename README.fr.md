@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="vyron/assets/vyron-wordmark-xl.png" alt="VYRON" width="340">
 
