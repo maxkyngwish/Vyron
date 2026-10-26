@@ -7,6 +7,7 @@
 [![Plateforme](https://img.shields.io/badge/plateforme-Windows%2010%20%7C%2011-0C1712?style=flat-square&logo=windows11&logoColor=B6FF38)](#installation)
 [![Python](https://img.shields.io/badge/python-3.10%2B-0C1712?style=flat-square&logo=python&logoColor=B6FF38)](https://www.python.org/downloads/)
 [![Licence](https://img.shields.io/badge/licence-MIT-0C1712?style=flat-square)](LICENSE)
+[![CI](https://github.com/maxkyngwish/Vyron/actions/workflows/ci.yml/badge.svg)](https://github.com/maxkyngwish/Vyron/actions/workflows/ci.yml)
 [![Télémétrie](https://img.shields.io/badge/t%C3%A9l%C3%A9m%C3%A9trie-aucune-0C1712?style=flat-square)](README.md#confidentialité)
 
 [English](README.md) · **Français**
