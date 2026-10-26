@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="vyron/assets/vyron-wordmark-xl.png" alt="VYRON" width="340">
 
@@ -9,18 +9,18 @@
 [![License](https://img.shields.io/badge/license-MIT-0C1712?style=flat-square)](LICENSE)
 [![Telemetry](https://img.shields.io/badge/telemetry-none-0C1712?style=flat-square&logo=shieldsdotio&logoColor=B6FF38)](#privacy)
 
-**English** · [Français](README.fr.md)
+**English** Â· [FranÃ§ais](README.fr.md)
 
 </div>
 
 ![VYRON overview](docs/screenshots/01-overview.png)
 
 VYRON detects the game you launch, gives it the CPU and RAM back, applies real
-Windows performance settings — and undoes every single one when you stop
+Windows performance settings â€” and undoes every single one when you stop
 playing. No account on a server, no telemetry, no admin rights, no console
 window.
 
-**Made by Maxkingwish** · [Attribution rules](ATTRIBUTION.md)
+**Made by Maxkingwish** Â· [Attribution rules](ATTRIBUTION.md)
 
 ## Why VYRON
 
@@ -35,7 +35,7 @@ the boring, measurable work:
   that game;
 - asks Windows for a **1 ms timer** to steady frame pacing;
 - restores priorities, RAM, registry values, power plan and timer when the game
-  exits — and even after a crash.
+  exits â€” and even after a crash.
 
 ## Features
 
@@ -46,17 +46,17 @@ app" picker is still available, and false positives can be muted with
 **Not a game** (restorable from Settings).
 
 ### FPS boost (reversible)
-- **Game profile** — fullscreen optimisations off, high-performance GPU,
+- **Game profile** â€” fullscreen optimisations off, high-performance GPU,
   DXGI swap-effect upgrade. Per game, `HKCU` only, saved with its original value.
-- **Background apps** — grouped like Task Manager (`Microsoft Edge · 14 processes
-  · 810 MB`) with **Optimise** (Efficiency mode + Below Normal priority +
+- **Background apps** â€” grouped like Task Manager (`Microsoft Edge Â· 14 processes
+  Â· 810 MB`) with **Optimise** (Efficiency mode + Below Normal priority +
   working-set trim) and **Close** (confirmation first).
-- **Suspend heavy apps while playing** — freezes them completely; the app you
+- **Suspend heavy apps while playing** â€” freezes them completely; the app you
   switch to wakes up in under a second. Everything resumes when the game exits.
   A suspended app is recorded on disk, so even a hard kill is undone at the next
   launch.
-- **1 ms system timer** — requested while playing, released afterwards.
-- **Game process tuning** — Above Normal priority, all cores, high I/O priority,
+- **1 ms system timer** â€” requested while playing, released afterwards.
+- **Game process tuning** â€” Above Normal priority, all cores, high I/O priority,
   and never in Efficiency mode.
 
 ### Monitoring
@@ -75,7 +75,7 @@ game library with one-click launch. Guest mode works for everything except the
 boost engine.
 
 ### Six languages
-English, French, Russian, Italian, Spanish, Portuguese — switchable at any time.
+English, French, Russian, Italian, Spanish, Portuguese â€” switchable at any time.
 
 ## The boost, honestly
 
@@ -106,24 +106,24 @@ running in the background; nothing can promise a fixed FPS number.
 
 ## Install
 
-### Option A — prebuilt executable
+### Option A â€” prebuilt executable
 Download `VYRON.exe` from the Releases page and run it. No Python needed.
 
 > The executable is unsigned, so Windows SmartScreen may warn the first time.
-> Click **More info → Run anyway**, or build it yourself from source.
+> Click **More info â†’ Run anyway**, or build it yourself from source.
 
-### Option B — one-click scripts (from source)
+### Option B â€” one-click scripts (from source)
 1. Install [Python 3.10+](https://www.python.org/downloads/) and tick
    **Add Python to PATH**.
-2. Double-click **`VYRON.vbs`** — silent launch, no console. It installs the two
+2. Double-click **`VYRON.vbs`** â€” silent launch, no console. It installs the two
    dependencies on first run if needed.
 3. `INSTALL_VYRON.bat` shows the installer output if something fails;
    `RUN_VYRON.bat` is a shortcut to the silent launcher.
 
-### Option C — manual
+### Option C â€” manual
 ```powershell
-git clone https://github.com/maxkyngwish/VYRON.git
-cd VYRON
+git clone https://github.com/maxkyngwish/Vyron.git
+cd Vyron
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
@@ -197,8 +197,8 @@ never competes with the game.
 | Nothing happens on double-click | Run `INSTALL_VYRON.bat` to see the error, or `python main.py` in a terminal. |
 | "Python 3.10 or more is required" | Reinstall Python and tick **Add Python to PATH**. |
 | Some settings show *Partial* / need admin | VYRON is designed for standard users; the remaining settings require an elevated shell and are skipped safely. |
-| The game is not detected | Use **Game Center → pick a running app**, or add the game manually. |
-| A background app feels slow | Open Boost → **Restore apps**, or untick *Suspend heavy background apps*. |
+| The game is not detected | Use **Game Center â†’ pick a running app**, or add the game manually. |
+| A background app feels slow | Open Boost â†’ **Restore apps**, or untick *Suspend heavy background apps*. |
 | Startup error | See `%USERPROFILE%\.vyron_crash.log`. |
 
 ## FAQ
@@ -233,7 +233,7 @@ py -m compileall -q vyron tools main.py
 py tools/check_attribution.py
 ```
 
-The **Made by Maxkingwish** credit must stay visible and unchanged everywhere —
+The **Made by Maxkingwish** credit must stay visible and unchanged everywhere â€”
 see [ATTRIBUTION.md](ATTRIBUTION.md). This applies to forks and AI-generated
 changes too.
 
@@ -243,7 +243,7 @@ Created and maintained by **Maxkingwish**.
 
 The credit line `Made by Maxkingwish` is protected: it may not be removed,
 translated, shortened, hidden or covered. Details and enforcement:
-[ATTRIBUTION.md](ATTRIBUTION.md) · `tools/check_attribution.py`.
+[ATTRIBUTION.md](ATTRIBUTION.md) Â· `tools/check_attribution.py`.
 
 <img src="docs/screenshots/05-about.png" alt="The About page shows the protected credit" width="760">
 
@@ -252,4 +252,4 @@ Built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) and
 
 ## License
 
-[MIT](LICENSE) © 2026 Maxkingwish.
+[MIT](LICENSE) Â© 2026 Maxkingwish.
