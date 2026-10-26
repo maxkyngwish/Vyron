@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Local VYRON data - never commit
+.vyron_settings.json
+.vyron_accounts.json
+.vyron_suspended.json
+.vyron_crash.log
+
+# Editors and OS
+.idea/
+.vscode/
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
